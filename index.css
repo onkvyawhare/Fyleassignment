@@ -1,0 +1,557 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    
+    
+    
+  
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;  
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.headersection{
+top: 0px;
+left: 0px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+justify-content:center;
+
+}
+
+#head1{
+   
+margin-top:203px;
+margin-left: 276px;
+height: 30px;
+/* UI Properties */
+text-align: left;
+font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+letter-spacing: 0px;
+color: #FF3147;
+text-transform: uppercase;
+opacity: 1;
+
+}
+
+#head2{
+margin-top: 39px;
+margin-left: 276px;
+height: 140px;
+text-align: left;
+
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 60px;
+ 
+/* font-size: 60px; */
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+
+
+}
+
+#heroimg{
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+    
+/* UI Properties */
+
+opacity: 1;
+}
+
+#para{
+    margin-left: 276px;
+    margin-top: 50px;
+    width: 584px;
+    height: 83px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#conbtn{
+    margin-left: 276px;
+    margin-top: 30px;
+    border-radius: 2px;
+    height: 50px;
+    background-color:#FF3147;
+    padding: 15px 28px;
+    color: #FFFFFF;
+    
+}
+
+
+.middlesection{
+    margin-top: 137px;
+    background-color: #FAFAFA;
+
+}
+
+.midup{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-inline-start:276px;
+   
+    
+}
+
+#midh1{
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:24px;
+  color: #FF3147;
+  margin-top: 100px;
+
+}
+
+#midh2{
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 45px;
+margin-top: 40px;
+
+}
+
+#midh3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:120px;
+    
+
+}
+
+.midlow{
+    display: flex;
+    justify-content:space-evenly;
+    margin-inline-start:276px;
+    margin-top: 60px;
+   
+    
+}
+
+
+#mid2{
+    /* margin-left: 30px; */
+}
+
+#card{
+   
+    background-color: #FF3147;
+    width:285px;
+    height:426px;
+}
+
+#cardimg{
+    margin-left:112px;
+    margin-top:80px;
+    
+}
+
+#cardhead{
+
+    text-align: center;
+    margin-top:40px;
+    color: #FAFAFA;
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+#cardpara{
+    margin-top: 15px;
+    width:250px;
+    height: 34px;
+    margin-left:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FAFAFA;
+}
+
+.arrow-button {
+    background-color:#F4F4F4; /* Example background color */
+    color:#FF3147;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-left:70px;
+    margin-top: 80px;
+    padding: 15px 10px;
+    width:150px;
+}
+
+.arrow {
+    width:35px;
+    height:10px;
+    background-image: url('./assests/arrow.svg'); /* URL to your arrow image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+     /* Adjust position of the arrow */
+    transform: translateY(-50%);
+}
+
+.dots {
+    margin-left:290px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#dot1{
+    width:25px;
+    
+    }
+
+#dot2{
+ width:6px;
+ 
+ margin-left: 10px;
+ 
+}
+
+#dot3{
+  width:6px;
+  margin-left: 10px;
+}
+
+#besth1{
+  color: #FF3147;
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:24px;
+  text-align: center;
+  
+  margin-top: 50px;
+
+}
+
+#besth2{
+ font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 45px;
+margin-top: 40px;
+text-align: center;
+
+}
+.cards{
+    display:flex;
+    justify-content: space-evenly;
+    margin-inline-start: 276px;
+    margin-top: 50px;
+}
+.bestcard{
+    width:250px;
+}
+
+.bestcard img{
+    width:68px;
+    height:68px;
+}
+
+.bestp1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.bestp2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 16px;
+
+}
+
+.flexsection{
+    display: flex;
+    justify-content: center;
+    margin-inline-start:276px;
+    margin-top:40px;
+}
+
+#flexh1{
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 32px;
+margin-top: 50px;
+text-align: center;
+color:#FF3147
+
+}
+
+
+
+#flexh2{
+ font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+margin-top: 35px;
+text-align: center;
+}
+
+#fleximg{
+    width:550px;
+    height:362px;
+    
+}
+
+#carddyn1{
+    width: 280px;
+    height:120px;
+    margin-left: 30px;
+    background-color:#F6F6F6;
+}
+
+#carddyn2{
+    width: 280px;
+    height:120px;
+    margin-left: 30px;
+    background-color:#F6F6F6;
+   
+}
+    
+    
+#carddyn3{
+    width: 280px;
+    height:120px;
+    margin-left: 30px;
+    background-color:#F6F6F6;
+    
+}
+
+#carh1{
+    text-align:center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:16px;
+}
+
+#carh2{
+    padding-left: 20px;
+    padding-top:6px;
+    
+    font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px
+}
+  
+#car2h1{
+    text-align:center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:16px;
+}
+
+#car2h2{
+    padding-left: 20px;
+    padding-top:6px;
+   
+    font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px
+  
+}
+
+#car3h1{
+    text-align:center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:16px;
+}
+
+#car3h2{
+    padding-left: 20px;
+    padding-top:6px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px
+}
+
+.growthsec{
+    background-color: #F4F4F4;
+    margin-top: 50px;
+
+}
+
+#growh1{
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 24px;
+padding-top: 50px;
+text-align: center;
+color:#FF3147
+
+
+}
+ 
+#growh2{
+    font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+margin-top: 35px;
+text-align: center;
+
+}
+
+.grcards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; /* Adjust the gap between cards */
+    
+    margin-inline-start: 276px;
+   
+    
+}
+.growcard{
+    margin-top: 40px;
+    width:120px;
+    height:150px;
+    background-color: #FAFAFA;
+    margin-bottom: 20px;
+   
+}
+
+.growcard img{
+    width:30px;
+    height:20px;
+    padding-top: 15px;
+    padding-left: 45px;
+    
+}
+
+.growcard h2{
+    text-align:center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+
+
+}
+
+.growcard p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    
+
+}
+
+.growcard:hover {
+    transform: scale(1.1); /* Enlarge effect on hover */
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.fe{
+    margin-top: 50px;
+}
+
+#feh1{
+    font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 24px;
+padding-top: 50px;
+text-align: center;
+color:#FF3147
+
+}
+
+#feh2{
+   
+        font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+#fepa{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 500px;
+    text-align: center;
+    padding-left:500px;
+    margin-top: 50px;
+}
+
+#fesp1{
+    padding-left:500px;
+font-family: "Cormorant SC", serif;
+font-weight: 700;
+font-style: normal;
+color: #FF3147;
+padding-top: 40px;
+
+}
+
+#fesp2{
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+    font-weight: 500;
+    padding-top: 40px;
+
+}
+
+.footer{
+    width:full;
+    height:220px;
+    background-color:#FF3147;
+    margin-top: 50px;
+}
+    
+
